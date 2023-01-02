@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "QR Code Generator",
+    "version": "1.0",
+  
+    "description": "Returns Active Tab's QR Code",
+    "icons": {
+      "48": "icons/qr-48.PNG"
+    },
+  
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/qr-32.PNG",
+      "default_title": "QR Code Gen",
+      "default_popup": "popup/popup.html"
+    }
+  }

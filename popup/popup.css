@@ -1,0 +1,17 @@
+#popup-content{
+    width: 305px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 10px;
+    color: #2c3e50;
+}
+
+#inject-id-qr{
+    outline-color: rgb(140, 255, 87);
+}
+
+#error-content{
+    outline-color: red;
+    font-weight: bold;
+}
